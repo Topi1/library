@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Library</h1>
+
+    <button class="newBookButton">Add book</button>
+
+    <div class="formpop">
+        <form action="" class="form">
+            
+            <div class="input">
+                <p><input type='text' class='title' name='title' placeholder='Title'></p>
+                <p><input type='text' class='author' name='author' placeholder='Author'></p>
+                <p><input type='text' class='pages' name='pages' placeholder='Pages'></p>
+            </div>
+            <div id='checkBox'>
+                <p><label >Read: </label><input type='checkbox' class='read' name='read' value='yes'></p>
+            </div>
+            <button type='submit' form='form' class='addBtn'>Add</button>
+            <button form='form' class='cancelButton'>Cancel</button>
+        </form>
+    </div>
+     
+    <script src="app.js"></script>
+</body>
+</html>
